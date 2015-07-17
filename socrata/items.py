@@ -15,6 +15,7 @@ def check_null_value(value):
 		return value
 
 class Dataset(scrapy.Item):
+    name = scrapy.Field()
     scraped_url = scrapy.Field()
     desc = scrapy.Field()
     soc_id = scrapy.Field()
@@ -34,3 +35,5 @@ class Dataset(scrapy.Item):
     row_count = scrapy.Field()
     update_freq = scrapy.Field()
     timestamp = scrapy.Field()
+    set_type = scrapy.Field()
+
