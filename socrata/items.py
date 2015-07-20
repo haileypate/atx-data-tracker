@@ -36,4 +36,5 @@ class Dataset(scrapy.Item):
     update_freq = scrapy.Field()
     timestamp = scrapy.Field()
     set_type = scrapy.Field()
+    provided_by = scrapy.Field()
 
