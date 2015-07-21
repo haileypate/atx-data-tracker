@@ -33,6 +33,7 @@ class dataset_spider(scrapy.Spider):
         il.add_xpath('permalink', '//dt[text()="Permalink"]/following-sibling::dd[1]/span/a/text()')
         il.add_xpath('dept', '//dt[text()="Department"]/following-sibling::dd[1]/span/text()')
         il.add_xpath('provided_by', '//dt[text()="Data Provided By"]/following-sibling::dd[1]/text()')
+        il.add_xpath('category', '//dt[text()="Category"]/following-sibling::dd[1]/text()')
         # il.add_xpath('contact_name', )
         # il.add_xpath('contact_email', )
         # il.add_xpath('date_created', )

@@ -37,4 +37,4 @@ class Dataset(scrapy.Item):
     timestamp = scrapy.Field()
     set_type = scrapy.Field()
     provided_by = scrapy.Field()
-
+    category = scrapy.Field()
