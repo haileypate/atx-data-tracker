@@ -22,7 +22,7 @@ class Dataset(scrapy.Item):
     tags = scrapy.Field()
     permalink = scrapy.Field()
     dept = scrapy.Field()
-    contact_name = scrapy.Field()
+    soc_owner = scrapy.Field()
     contact_email = scrapy.Field()
     date_created = scrapy.Field()
     date_updated = scrapy.Field()
